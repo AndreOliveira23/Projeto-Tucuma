@@ -1,0 +1,30 @@
+﻿<html>
+	<head>
+		<title>Tucumã - Sugestões</title>
+	</head>
+<body>
+	<center>
+		<font size="7">
+		Portal de Sugestões da TUCUMÃ
+	</center>
+	<hr size="7%" color="black">
+	<fieldset style="border-radius:15px; width: 92%; height:170%;">
+		<form action="sugestao.php" method="POST">
+			<h6>
+			Seu ID (Que você recebeu da denúncia):<br>
+			<input type="text" name="codigo" maxlength="13" required><br>
+			Nome: (Opcional)<br>
+			<textarea name="nome" rows="1" cols="32" maxlength="255" style="border-radius:5px;" required></textarea><br>
+			Cidade: (Opcional)<br>
+			<textarea name="cidade" rows="1" cols="32" maxlength="255" style="border-radius:5px;" required></textarea><br>
+			&nbsp;<b>Qual é a sua sugestão?</b></br>
+			<textarea name="sugestao" rows="7" cols="170" maxlength="255" style="border-radius:15px;" required></textarea><br>
+			<font size="5">Máximo de (1000) caracteres</font>
+			<hr>
+			<center>
+				<input type="submit" value="ENVIAR">
+			</center>
+		</form>
+	</fieldset>
+</body>
+</html>
